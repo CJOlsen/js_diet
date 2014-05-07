@@ -1,0 +1,39 @@
+<!-- Author: Christopher Olsen, Copyright: 2014 -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"></meta>
+    <title>Main Page</title>
+    <link type="text/css" rel="stylesheet" href="main.css"></link>
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+	<li>
+	  <button name="nutrients_button" class="nav_button"
+		  onclick="Javascript:nutrient_nav_clicked()">nutrients</button>
+	</li>
+	<li>
+	  <button name="nutrients_button" class="nav_button"
+		  onclick="Javascript:new_nav_clicked()">new</button>
+	</li>
+	<li>
+	  <button name="nutrients_button" class="nav_button"
+		  onclick="Javascript:view_nav_clicked()">view</button>
+	</li>
+      </ul>
+    </nav> 
+    
+    <ul id="nutrients_list"></ul>
+    
+    <div id="list_options"></div>
+    
+    <script>
+      make_nutrient_list("list");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+/* Author: Christopher Olsen
+   Copyright: 2014 */
+
+
+/* START NAV MENU */
+nav {
+  background-color:#2C5463;
+  height:40px;
+}
+ 
+.nav_button {
+    font-family: Arial, Verdana;
+    color: white;
+    font-size: 20px;
+    background: none;
+    /* border: none; */
+}
+
+nav ul {
+  font-family: Arial, Verdana;
+  font-size: 20px;
+  margin: 0;
+  padding: 5;
+  list-style: none;
+}
+ 
+nav ul li {
+  display: block;
+  position: relative;
+  float: left;
+}
+ 
+nav ul li a {
+  display: block;
+  /*text-decoration: none;*/
+  /*padding: 7px 15px 3px 15px;*/
+  background: #2C5463;
+  color: #ffffff;
+  margin-left: 1px;
+  white-space: nowrap;
+  /*height:30px;*/ /* Width and height of top-level nav items */
+  width:90px;
+  text-align:center;
+ }
+/* END NAV MENU */
+
+
+/* nutrients page layout */
+
+#nutrients_list {
+    float: left;
+}
+
+#display_box {
+    float: right;
+}
+
+/* all of the clickable nutrient names */
+.text_button {
+    background: none;
+    border: none;
+}
+
+/* the toggle button for nutrient groups */
+.toggle {
+    background: none;
+    border: none;
+    color: DarkBlue;
+    font-size: 55%;
+    padding: 0;
+}
+
+/* used to display/hide the nutrient groups */
+.hide_this {
+    display: none;
+}
+
+.body {
+    background: blue;
+}
